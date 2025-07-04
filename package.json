@@ -1,0 +1,22 @@
+{
+  "name": "cypress-ts-web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^14.5.1",
+    "dotenv": "^17.0.1",
+    "prettier": "3.6.2",
+    "typescript": "^5.8.3"
+  }
+}
